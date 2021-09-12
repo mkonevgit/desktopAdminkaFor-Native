@@ -1,0 +1,60 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 22px;
+  margin: 0;
+  background: #fff;
+  color: #fff;
+}
+
+.container {
+  width: 1179px;
+  margin: 0 auto;
+}
+
+
+::-webkit-input-placeholder {
+  color: #D3D3D3;
+}
+:-ms-input-placeholder {
+  color: #D3D3D3;
+}
+::-moz-placeholder {
+  color: #D3D3D3;
+  opacity: 1;
+}
+:-moz-placeholder {
+  color: #D3D3D3;
+  opacity: 1;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 2px solid #fff;
+  -webkit-text-fill-color: #000;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(0,0,0,0) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+.Order {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.41);
+    width: 700px;
+}
+.order_title {
+    color: #000;
+    font-size: 22px;
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80px;
+    user-select: none;
+    background: #f5d04f;
+    font-weight: 600;
+}
+
+.order_title_name_wrapper {
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.order_title_count {
+    width: 100px;
+    text-align: center;
+}
+
+.order_title_price {
+    width: 150px;
+    text-align: center;
+}
+
+.wrapper_font {
+    font-weight: normal;
+}
+
+.wrapper_color {
+    background: #fff;
+}
+
+.wrapper_align {
+    text-align: left;
+    padding-left: 150px;
+    width: 350px;
+}
+
+.order_button_del {
+    display: block;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+    user-select: none;
+    font-size: 24px;
+    background: url(../../../images/item_delete.png) no-repeat 30px 50% #fad049;
+    color: #fff;
+    width: 100px;
+    height: 58px;
+    line-height: 58px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 0 #f7e597;
+}
+
+.order_button_del:active {
+    box-shadow: 1px 1px 1px #f7e597 inset, -1px -1px 1px #f7e597 inset;
+}
+
+.order_button_del:hover {
+    background: url(../../../images/item_delete.png) no-repeat 30px 50% #f4be1d;
+}
+
+.order_button_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}

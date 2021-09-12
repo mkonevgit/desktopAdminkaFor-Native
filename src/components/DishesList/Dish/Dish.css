@@ -1,0 +1,107 @@
+.Dish {
+  color: #000;
+  font-size: 22px;
+  width: 61%;
+  margin: 40px auto;
+  display: flex;
+  box-shadow: 0px 6px 13px 0px rgba(0, 0, 0, 0.41);
+  height: 150px;
+  user-select: none;
+}
+
+.dish_name {
+  padding-bottom: 10px;
+  color: #000;
+  text-align: left;
+}
+
+.image_wrapper {
+  margin: 10px;
+  width: 160px;
+}
+
+.dish_image {
+  height: 100%;
+  width: auto;
+}
+
+.text_element_wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5d04f;
+}
+
+.text_element_wrapper:hover {
+  background: #f4be1d;
+}
+
+.price_wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.dish_button_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.dish_button_add {
+  display: block;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+  text-decoration: none;
+  text-align: left;
+  cursor: pointer;
+  user-select: none;
+  font-size: 24px;
+  background: url(../../../images/item_add.png) no-repeat 30px 50% #fad049;
+  color: #fff;
+  width: 100px;
+  height: 58px;
+  line-height: 58px;
+  border-radius: 3px;
+  box-shadow: 3px 3px 0 #f7e597;
+}
+
+.dish_button_add:active {
+  box-shadow: 1px 1px 1px #f7e597 inset, -1px -1px 1px #f7e597 inset;
+}
+
+.dish_button_add:hover {
+  background: url(../../../images/item_add.png) no-repeat 30px 50% #f4be1d;
+}
+
+.dish_button_del {
+  background: url(../../../images/item_delete.png) no-repeat 30px 50% #fad049;
+}
+
+.dish_button_del:active {
+  box-shadow: 1px 1px 1px #f7e597 inset, -1px -1px 1px #f7e597 inset;
+}
+
+.dish_button_del:hover {
+  background: url(../../../images/item_delete.png) no-repeat 30px 50% #f4be1d;
+}
+
+.dish_button_edit {
+  background: url(../../../images/item_edit.png) no-repeat 30px 50% #fad049;
+}
+
+.dish_button_edit:active {
+  box-shadow: 1px 1px 1px #f7e597 inset, -1px -1px 1px #f7e597 inset;
+}
+
+.dish_button_edit:hover {
+  background: url(../../../images/item_edit.png) no-repeat 30px 50% #f4be1d;
+}

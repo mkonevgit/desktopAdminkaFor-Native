@@ -1,0 +1,40 @@
+.OrderSummaryItem {
+    color: #000;
+    font-size: 22px;
+    width: 700px;
+    margin: 20px auto;
+    display: flex;
+    height: 60px;
+}
+
+
+
+.summary_element_wrapper {
+    padding: 10px;
+    padding-bottom: 0;
+    flex-basis: 80%;
+
+}
+
+.summary_count_wrapper {
+    display: flex;
+    align-items:center;
+}
+
+
+
+  .summary_count { 
+    outline: none;
+    border: none;
+    background: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 58px;
+    min-height: 58px;
+    color: #000;
+    border-radius: 3px;
+    user-select: none;
+    width: 58px;
+    text-align: center;
+  }
+
